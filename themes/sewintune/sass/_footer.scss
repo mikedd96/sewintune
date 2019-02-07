@@ -1,9 +1,85 @@
 footer {
-    background-color: #FFE49B;
+    background-color: #554640;
+    height: 500px;
+}
+.site-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.store-info {
     height: 500px;
 }
 .footer-logo {
-    background: url(images/sewintune-logo.svg) no-repeat;
-    height: 100px;
-    width: 400px;
+    background: url(images/sewintune-logo2.svg) no-repeat;
+    height: 300px;
+    position: relative;
+    top: -40px;
+}
+.blurb {
+    position: relative;
+    top: -120px;
+    font-family: dederon-sans-web, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.contact {
+    font-size: 18px;
+    font-family: dederon-sans-web, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px;
+    margin-top: 45px;
+
+}
+.contact-us {
+    color: ivory;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.contact-info {
+    margin-top: 12px;
+    border-top: 1px ivory solid;
+}
+.our-location {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    display: flex;
+    .fas {
+        font-size: 36px
+    }
+    .address {
+        margin-left: 20px;
+    }
+}
+.phone {
+    margin-bottom: 36px;
+    display: flex;
+    .fas {
+        font-size: 36px;
+    }
+    .phonenumber{
+        margin-left: 20px;
+    }
+}
+.email {
+    display: flex;
+    .fas {
+        position: relative;
+        top: 10px;
+        font-size: 36px;
+    }
+    .emails{
+        margin-left: 20px;
+    }
+}
+.social {
+    height: 125px;
+    background-color: #171a21;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: ivory;
+    font-size: 48px
 }
