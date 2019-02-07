@@ -1,0 +1,29 @@
+/*!
+Theme Name: startertheme
+Theme URI: http://underscores.me/
+Author: Web-Crunch
+Author URI: https://web-crunch.com
+Description: A starter theme that suits me
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: startertheme
+Tags:
+
+*/
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+html {
+  margin: 0px; }
+
+body {
+  margin: 0px;
+  background: #d4ebf7; }
+
+footer {
+  background-color: #FFE49B;
+  height: 500px; }
+
+.footer-logo {
+  background: url(images/sewintune-logo.svg) no-repeat;
+  height: 100px;
+  width: 400px; }
