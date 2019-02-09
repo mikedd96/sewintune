@@ -1,6 +1,142 @@
-footer {
+@media screen and (min-width:450px) {
+.widget-area {
+    background-color: #554640;
+    height: 1000px;
+}
+#text-2 {
+    display: none;
+}
+#ctct_form-2 {
+    display: flex;
+
+flex-direction: column;
+
+align-items: center;
+border-top: 1px solid #ffe8e1;
+
+margin-top: 30px;
+}
+.ctct-form-field span {
+    display: none;
+}
+.ctct-label-top {
+    width: 350px;
+    height: 30px;
+    border: 1px dashed #ffe8e1;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 5px;
+}
+.ctct-submit {
+    border-radius: 5px;
+border: none;
+height: 30px;
+width: 80px;
+background: none;
+background-color: #60524d;
+border: 1px solid #ffe8e1;
+color: #ffe8e1;
+&:hover {
+    background-color: #7c6b66;
+}
+}
+#text-3 {
+    display: flex;
+
+justify-content: center;
+}
+.contact {
+    font-size: 14px;
+    font-family: dederon-sans-web, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px;
+    margin-top: 45px;
+
+}
+.contact-us {
+    // color: ivory;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.contact-info {
+    margin-top: 12px;
+    border-top: 1px ivory solid;
+}
+.our-location {
+    margin-top: 36px;
+    margin-bottom: 18px;
+    display: flex;
+    .fas {
+        font-size: 20px
+    }
+    .address {
+        margin-left: 20px;
+    }
+}
+.phone {
+    margin-bottom: 18px;
+    display: flex;
+    .fas {
+        font-size: 20px;
+    }
+    .phonenumber{
+        margin-left: 20px;
+    }
+}
+.email {
+    display: flex;
+    .fas {
+        position: relative;
+        top: 10px;
+        font-size: 20px;
+    }
+    .emails{
+        margin-left: 20px;
+    }
+}
+.social {
+    height: 125px;
+    background-color: #171a21;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: ivory;
+    font-size: 24px
+}
+}
+@media screen and (min-width: 800px) {
+    .widget-area {
+        background-color: #554640;
+        height: 750px;
+        // display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    } 
+    #text-4 {
+        grid-row-start: 2;
+    } 
+    #ctct_form-2 {
+        grid-row-start: 3;
+    }
+    #text-3 {
+        grid-row-start: 3;
+    }
+    .contact {
+        border-top: 1px solid #ffe8e1;
+        margin-top: 30px;
+    }
+    .contact-info {
+        border: none;
+    }
+}
+@media screen and (min-width:1080px) {
+.widget-area {
     background-color: #554640;
     height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .site-info {
     display: flex;
@@ -11,18 +147,64 @@ footer {
 .store-info {
     height: 500px;
 }
-.footer-logo {
-    background: url(images/sewintune-logo2.svg) no-repeat;
-    height: 300px;
+.wp-image-19 {
+    height: 100px;
+    width: 500px;
     position: relative;
     top: -40px;
+    max-width: none!important;
 }
-.blurb {
+// .blurb
+#text-2 {
+    display: block;
     position: relative;
     top: -120px;
     font-family: dederon-sans-web, sans-serif;
     font-weight: 500;
     font-style: normal;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#text-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    position: relative;
+    top: -285px;
+    grid-row-start: inherit
+}
+#text-4 {
+    display: none;
+}
+#ctct_form-2 {
+    position: relative;
+    top: -200px;
+    left: 50px;
+    display: block;
+    border: none;
+    grid-row-start: inherit
+}
+.ctct-form-field span {
+    display: none;
+}
+.ctct-label-top {
+    width: 350px;
+    height: 30px;
+    border: 1px dashed #ffe8e1;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 5px;
+}
+.ctct-submit {
+    border-radius: 5px;
+border: none;
+height: 30px;
+width: 80px;
+background: none;
+background-color: #60524d;
+border: 1px solid #ffe8e1;
+color: #ffe8e1
 }
 .contact {
     font-size: 18px;
@@ -31,10 +213,10 @@ footer {
     font-style: normal;
     letter-spacing: .5px;
     margin-top: 45px;
-
+    border: none;
 }
 .contact-us {
-    color: ivory;
+    // color: ivory;
     font-size: 24px;
     letter-spacing: 2px;
 }
@@ -82,4 +264,5 @@ footer {
     align-items: center;
     color: ivory;
     font-size: 48px
+}
 }

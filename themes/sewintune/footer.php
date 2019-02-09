@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
+		<!-- <div class="site-info">
 		<div class="store-info">
 			<div class="footer-logo">
 			</div>
@@ -56,7 +56,7 @@ But he pulled free of the linen sheet and escaped naked. <br>
 		</div>
 		</div>
 		</div>
-		</div><!-- .site-info -->
+		</div>.site-info -->
 		<div class="social">
 		<a class="fab fa-facebook-square" href="https://facebook.com/sewintunelloydminster"> Facebook</a>
 		<a class="fab fa-instagram" href="https://instagram.com/sewintune"> Instagram</a>
