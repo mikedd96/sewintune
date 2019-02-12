@@ -1,7 +1,19 @@
+@media screen and (min-width:0px) {
+    .widget-area {
+        background-color: #554640;
+        height: 1250px;
+    }
+}
 @media screen and (min-width:450px) {
 .widget-area {
     background-color: #554640;
     height: 1000px;
+}
+#media_image-3 {
+    margin-left: 10px;
+}
+#text-4 {
+    margin-left: 20px;
 }
 #text-2 {
     display: none;
@@ -107,11 +119,17 @@ justify-content: center;
     font-size: 24px
 }
 }
+@media screen and (min-width:550px ) {
+    .widget-area {
+        background-color: #554640;
+    height: 1250px;
+}
+}
 @media screen and (min-width: 800px) {
     .widget-area {
         background-color: #554640;
-        height: 750px;
-        // display: grid;
+        height: 850px;
+        display: grid;
         grid-template-rows: 1fr 1fr 1fr;
     } 
     #text-4 {
@@ -131,10 +149,11 @@ justify-content: center;
         border: none;
     }
 }
-@media screen and (min-width:1080px) {
+
+@media screen and (min-width:1120px) {
 .widget-area {
     background-color: #554640;
-    height: 500px;
+    height: 650px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -149,7 +168,7 @@ justify-content: center;
 }
 .wp-image-19 {
     height: 100px;
-    width: 500px;
+    width: 400px;
     position: relative;
     top: -40px;
     max-width: none!important;
@@ -164,12 +183,14 @@ justify-content: center;
     font-style: normal;
     grid-column-start: 1;
     grid-column-end: 2;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 #text-3 {
     grid-column-start: 3;
     grid-column-end: 4;
     position: relative;
-    top: -285px;
+    top: -245px;
     grid-row-start: inherit
 }
 #text-4 {
@@ -177,17 +198,18 @@ justify-content: center;
 }
 #ctct_form-2 {
     position: relative;
-    top: -200px;
+    top: -250px;
     left: 50px;
     display: block;
     border: none;
-    grid-row-start: inherit
+    grid-row-start: inherit;
+    width: 250px;
 }
 .ctct-form-field span {
     display: none;
 }
 .ctct-label-top {
-    width: 350px;
+    width: 250px;
     height: 30px;
     border: 1px dashed #ffe8e1;
     background: none;
@@ -207,7 +229,7 @@ border: 1px solid #ffe8e1;
 color: #ffe8e1
 }
 .contact {
-    font-size: 18px;
+    font-size: 14px;
     font-family: dederon-sans-web, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -266,3 +288,28 @@ color: #ffe8e1
     font-size: 48px
 }
 }
+@media screen and (min-width:1420px) {
+    .widget-area {
+        height: 500px;
+    }
+.wp-image-19 {
+    width: 500px;
+}
+#ctct_form-2 {
+    width: 500px;
+}
+.ctct-label-top { 
+    width: 350px;
+}
+.contact {
+    font-size: 18px;
+}
+#text-2 {
+    margin-top: none;
+}
+#text-3 {
+    position: relative;
+
+top: -285px;
+}
+} 
